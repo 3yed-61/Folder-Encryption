@@ -22,25 +22,7 @@ This is a simple GUI application written in Python that allows you to encrypt an
    pip install cryptography
 ---
 # Usage
-## 1. Run the script:
+1. Run the script:
 ```bash
-python your_script_name.py
+   python your_script_name.py
 ---
-
-**2. The GUI will open with two buttons: "Encrypt Folder" and "Decrypt Folder".
-## Encrypt Folder
-
-1. Click the "Encrypt Folder" button.
-2. Select the folder you want to encrypt.
-3. The application will create a zip file of the folder, encrypt it, delete the original folder, and display a success message with the location of the key file.
-
-## Decrypt Folder
-
-1. Click the "Decrypt Folder" button.
-2. Select the encrypted zip file.
-3. Select the key file that was generated during encryption.
-4. The application will decrypt the zip file, extract its contents, delete the decrypted zip file and key file, and display a success message.
-
-## Notes
-Make sure to keep the key file safe as it is required for decryption.
-The encrypted zip file and key file are saved in the same directory as the original folder.
