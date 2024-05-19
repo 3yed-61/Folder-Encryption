@@ -26,7 +26,7 @@ This is a simple GUI application written in Python that allows you to encrypt an
 2. Select the folder you want to encrypt.
 3. The application will create a zip file of the folder, encrypt it, delete the original folder, and display a success message with the location of the key file.
 
-# Decrypt Folder
+## Decrypt Folder
 
 1. Click the "Decrypt Folder" button.
 2. Select the encrypted zip file.
