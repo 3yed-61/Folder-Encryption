@@ -21,11 +21,10 @@ This is a simple GUI application written in Python that allows you to encrypt an
    ```bash
    pip install cryptography
 
-# Usage
+## Usage
 1. Run the script:
    ```bash
    python your_script_name.py
-
 
 2. The GUI will open with two buttons: "Encrypt Folder" and "Decrypt Folder".
 
