@@ -4,6 +4,7 @@ This is a simple GUI application written in Python that allows you to encrypt an
 
 ## Features
 
+
 - **Encrypt Folder**: Compresses a selected folder into a zip file, encrypts the zip file, and deletes the original folder.
 - **Decrypt Folder**: Decrypts a selected encrypted zip file, extracts its contents, and deletes the decrypted zip file and key file.
 
@@ -20,6 +21,13 @@ This is a simple GUI application written in Python that allows you to encrypt an
    ```bash
    pip install cryptography
 ---
+# Usage
+## 1. Run the script:
+```bash
+python your_script_name.py
+---
+
+**2. The GUI will open with two buttons: "Encrypt Folder" and "Decrypt Folder".
 ## Encrypt Folder
 
 1. Click the "Encrypt Folder" button.
