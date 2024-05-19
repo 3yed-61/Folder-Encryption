@@ -91,4 +91,12 @@ decrypt_button.grid(row=0, column=1, padx=10, pady=10)
 notification_box = tk.Text(frame, width=50, height=10, state=tk.DISABLED, bg='white', fg='black', font=('Arial', 10))
 notification_box.grid(row=1, column=0, columnspan=2, padx=10, pady=10)
 
+# Personal Info Section
+info_frame = tk.Frame(root, bg='#6699cc')
+info_frame.pack(padx=20, pady=10)
+
+info_label = tk.Label(info_frame, text="Developer: 3λΞĐ\nGitHub: github.com/3yed-61\nTwitter: @_3yed_", 
+                      bg='#6699cc', fg='white', font=('Arial', 10, 'italic'))
+info_label.pack()
+
 root.mainloop()
