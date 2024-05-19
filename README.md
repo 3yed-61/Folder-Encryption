@@ -20,7 +20,7 @@ This is a simple GUI application written in Python that allows you to encrypt an
 2. Install the required Python library:
    ```bash
    pip install cryptography
----
+
 # Usage
 1. Run the script:
    ```bash
@@ -28,7 +28,7 @@ This is a simple GUI application written in Python that allows you to encrypt an
 
 
 2. The GUI will open with two buttons: "Encrypt Folder" and "Decrypt Folder".
----
+
 ## Encrypt Folder
 
 1. Click the "Encrypt Folder" button.
