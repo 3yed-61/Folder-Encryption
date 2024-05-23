@@ -24,7 +24,7 @@ This is a simple GUI application written in Python that allows you to encrypt an
 ## Usage
 1. Run the script:
    ```bash
-   python your_script_name.py
+   python Folder Encryption.py
 
 2. The GUI will open with two buttons: "Encrypt Folder" and "Decrypt Folder".
 
